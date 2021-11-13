@@ -1,2 +1,2 @@
 # potato donkey/website
-just the website at potatodonkey.eu
+just the website at <https://potatodonkey.eu>
