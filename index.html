@@ -1,16 +1,19 @@
 <!DOCTYPE html>
+
 <head>
     <title>potato donkey</title>
     <script src="https://kit.fontawesome.com/1e522d22e3.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="assets/logo.svg">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
         body {
             margin: 0;
             padding: 0;
             font-family: 'Source Sans Pro', sans-serif;
             color: #FFFFFF;
         }
+
         .topblock {
             display: flex;
             position: absolute;
@@ -20,6 +23,7 @@
             align-items: center;
             background-color: #FFFFFF;
         }
+
         .bottomblock {
             display: flex;
             position: absolute;
@@ -30,32 +34,42 @@
             align-items: center;
             background-color: #800000;
         }
+
         .logo {
             height: 75%;
         }
+
         a {
             color: white;
             transition: 0.5s;
         }
+
         a:hover {
             color: #9b9b9b;
         }
+
         a.button:hover {
-            font-size: 600%;
+            font-size: 6.5rem;
         }
+
         .icons {
-            font-size: 500%;
+            font-size: 6rem;
         }
+
         span.icons a:last-child {
-            margin-left: 25px;
+            margin-left: 1rem;
         }
     </style>
 </head>
+
 <body>
     <div class="topblock">
         <img src="assets/logo.svg" class="logo">
     </div>
     <div class="bottomblock">
-        <a href="https://github.com/potato-donkey" target="_blank" class="icons button"><i class="fab fa-github"></i></a></span>
+        <span class="icons">
+            <a href="https://github.com/potato-donkey" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://status.ptdk.nl" title="Server status" target="_blank"><i class="fas fa-server"></i></a>
+        </span>
     </div>
 </body>
